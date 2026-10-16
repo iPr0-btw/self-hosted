@@ -9,11 +9,11 @@ Infrastructure running 18+ containerized services on Arch Linux / NixOS with zer
 
 See `services/` for deployment configs and individual service documentation.
 
-## stack.
+## the setup.
 
 Docker, Docker Compose, Tailscale VPN, Unbound DNS, systemd timers, bash automation, IPv4/IPv6 dual-stack, git-based config management.
 
-## why
+## why?
 
 Reliability through automation. Security through zero-trust networking. Portability through containers. Everything is infrastructure as code.
 
