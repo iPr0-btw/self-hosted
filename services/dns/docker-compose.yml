@@ -11,14 +11,15 @@ services:
       - "100.64.0.3:53:53/udp"  
     # - "53:53/tcp"  
     networks:
-      pihole_net:
-        ipv4_address: 172.20.0.2
+      dns_net:
+        ipv4_address: 10.0.0.2
     volumes:
       - ./unbound:/etc/unbound/custom.conf.d/
 networks:
-  pihole_net:
+  dns_net:
+  #pihole_net:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.20.0.0/24
+        - subnet: 10.0.0.0/24
 
