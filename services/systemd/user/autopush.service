@@ -1,0 +1,7 @@
+[Unit]
+Description=auto push changes to github. the GOAT.
+
+[Service]
+Type=oneshot
+ExecStart=/home/bruh/.dotfiles-git/autopush
+ExecStart=/home/bruh/.selfhosted/autopush
