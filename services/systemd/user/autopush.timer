@@ -1,0 +1,10 @@
+[Unit]
+Description=push dotfiles to github every 30s. a GOATed timer.
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=30sec
+Persistent=true
+
+[Install]
+WantedBy=timers.target
