@@ -1,7 +1,7 @@
 use_default_settings: true
 server:
     port: 2222
-    bind_address: "0.0.0.0"
+    bind_address: "127.0.0.1"
     secret_key: "your secret key here"
     limiter: true
 valkey:
