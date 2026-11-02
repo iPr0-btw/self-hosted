@@ -11,7 +11,7 @@ See `services/` for deployment configs and individual service documentation.
 
 ## the setup.
 
-Docker, Docker Compose, Tailscale VPN, Unbound DNS, systemd timers, bash automation, IPv4/IPv6 dual-stack, git-based config management.
+Docker, Docker Compose, Tailscale VPN, Unbound DNS, systemd timers, autopush script, IPv4/IPv6 dual-stack, git-based config management.
 
 ## why?
 
